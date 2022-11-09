@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="style.css" rel="stylesheet" />
+  <title>Private</title>
+</head>
+
+<body>
+  <!-- <h1>Users</h1> -->
+  <section class="title_container">
+
+    <div class="title_page">
+      <h5 id="game_title">TELEGRAM</h6>
+
+      <div class="prompt_button_div">
+        <div class="prompt_button" id="prompt-button-slot"></div>
+        <!-- <button class="button" id="button-prompt">PROMPT</button> -->
+      </div>
+
+    </div>
+
+    <div class="main_container">
+      <section class="canvas_section">
+        <div class="canvas_page">
+          <div class="canvas" id="canvas_id"></div>
+          <div id="canvas_text"></div>
+        </div>
+
+        <div class="user_signal_page">
+          <div class="four_signal_buttons">
+            <button class="user_signal_button" id="button_one">1</button>
+            <button class="user_signal_button">2</button>
+            <button class="user_signal_button">3</button>
+            <button class="user_signal_button">4</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="message_section">
+        <div class="message_page" id="message_page">
+          <h6>Message Board</h6>
+        </div>
+      </section>
+    </div>
+  </section>
+
+
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

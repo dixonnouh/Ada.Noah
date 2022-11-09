@@ -1,0 +1,198 @@
+html,
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 10em 5em;
+}
+
+.title_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    width: 64.2em;
+    padding: 2em;
+    background-color: #030f37;;
+    border: 3px solid #3b70ff;
+    border-radius: 0.8em;
+    margin: 0 3.8em 2em 5em;
+}
+
+h5 {
+    font-size: 146px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-style: italic; */
+
+    text-align: left;
+    margin: -0.1em;
+    /* padding: 0px 0.3em; */
+
+    color: #fdfcff;
+    text-shadow: 8px 0px 6px #f0f081, 12px 0px 4px #ff0a966b, 16px 0px 2px #c75df6, 20px 0px 0px #3b70ff;
+
+    /* color: #3b70ff;
+    text-shadow: 8px 0px 6px #e1ffcb, 12px 0px 4px #4d002c6b, 16px 0px 2px #50c3c7, 20px 0px 0px #3b70ff45; */
+
+    /* color: #3b70ff36;
+    text-shadow: 8px 0px 6px #c75df6, 12px 0px 4px #ff0a96b3, 16px 0px 2px #f0f081, 20px 0px 0px #fdfcff; */
+}
+
+
+
+
+
+
+.prompt_button_div {
+    text-align: left;
+}
+
+.prompt_button {
+    height: -16px
+}
+
+
+
+.main_container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.message_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-block-start: 10em; */
+    text-align: center;
+}
+
+.message_page {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    overflow-y: auto;
+
+    width: 200px;
+    height: 865.891px;
+    background-color: #fffcf4;
+    border: 3px solid #3b70ff;
+    margin: 0 20px;
+    border-radius: 0.4em;
+}
+
+h6 {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.2em;
+    padding: 0px 0.3em;
+    color: #1e3277d6;
+    text-shadow: 8px 0px 6px #f0f081, 12px 0px 4px #ff0a966b, 16px 0px 2px #c75df6, 20px 0px 0px #3b70ff;
+
+    /* color: #3b70ff;
+    text-shadow: 8px 0px 6px #e1ffcb, 12px 0px 4px #4d002c6b, 16px 0px 2px #50c3c7, 20px 0px 0px #3b70ff45; */
+}
+
+p {
+    text-align: left;
+    padding-left: 0.8em;
+}
+
+input{
+    width: 6.4em;
+    height: 1.5em;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+/* #prompt-button-slot{
+    height: 2em;
+    width: 5em;
+    font-size: 51px;
+    margin-left: 1em;
+    text-align: center;
+    background-color: #3b70ff;
+    color: #f0f081;
+    text-shadow: 2px 0px 6px #f0f081, 4px 0px 4px #ff0a966b, 6px 0px 2px #c75df6, 8px 0px 0px #3b70ff;
+} */
+
+.canvas_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-block-start: 10em; */
+    text-align: center;
+
+}
+
+.canvas_page {
+    width: 800px;
+    padding: 2em 2em 3.8em 2em;
+    background-color: #fffcf4;
+    border: 3px solid #3b70ff;
+    border-radius: 0.8em;
+}
+
+/* .prompt_button{
+    margin: 4.8em 0;
+}
+
+.button {
+    height: 28px;
+} */
+
+
+
+.user_signal_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2em 0 0 0;
+    padding: 1em 2em 1em 2em;
+
+    width: 800px;
+    height: 100px;
+    background-color: #fffcf4;
+    border: 3px solid #3b70ff;
+    border-radius: 0.8em;
+}
+
+.four_signal_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 2em 0;
+}
+
+.user_signal_button {
+    height: 2em;
+    width: 2.5em;
+    margin: 0 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.5em;
+    color: rgb(255 255 255);
+    background-color: #252936;
+    box-shadow: 8px 10px 1px #f0f081;
+}
